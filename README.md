@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requirement
+1. react-router-dom
+2. tone
+
 ## Available Scripts
 
 In the project directory, you can run:
