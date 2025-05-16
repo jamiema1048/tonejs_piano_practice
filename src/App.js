@@ -65,151 +65,151 @@ function App() {
           className={`white-key ${activeNotes.includes("C3") ? "active" : ""}`}
           onClick={playC3}
         >
-          Z
+          C
         </div>
         <div
           className={`black-key ${activeNotes.includes("Db3") ? "active" : ""}`}
           onClick={playDb3}
         >
-          S
+          C#/D♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("D3") ? "active" : ""}`}
           onClick={playD3}
         >
-          X
+          D
         </div>
         <div
           className={`black-key ${activeNotes.includes("Eb3") ? "active" : ""}`}
           onClick={playEb3}
         >
-          D
+          D#/E♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("E3") ? "active" : ""}`}
           onClick={playE3}
         >
-          C
+          E/F♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("F3") ? "active" : ""}`}
           onClick={playF3}
         >
-          V
+          F/E#
         </div>
         <div
           className={`black-key ${activeNotes.includes("Gb3") ? "active" : ""}`}
           onClick={playGb3}
         >
-          G
+          F#/G♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("G3") ? "active" : ""}`}
           onClick={playG3}
         >
-          B
+          G
         </div>
         <div
           className={`black-key ${activeNotes.includes("Ab3") ? "active" : ""}`}
           onClick={playAb3}
         >
-          H
+          G#/A♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("A3") ? "active" : ""}`}
           onClick={playA3}
         >
-          N
+          A
         </div>
         <div
           className={`black-key ${activeNotes.includes("Bb3") ? "active" : ""}`}
           onClick={playBb3}
         >
-          J
+          A#/B♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("B3") ? "active" : ""}`}
           onClick={playB3}
         >
-          M
+          B/C♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("C4") ? "active" : ""}`}
           onClick={playC4}
         >
-          W
+          C/B#
         </div>
         <div
           className={`black-key ${activeNotes.includes("Db4") ? "active" : ""}`}
           onClick={playDb4}
         >
-          3
+          C#/D♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("D4") ? "active" : ""}`}
           onClick={playD4}
         >
-          E
+          D
         </div>
         <div
           className={`black-key ${activeNotes.includes("Eb4") ? "active" : ""}`}
           onClick={playEb4}
         >
-          4
+          D#/E♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("E4") ? "active" : ""}`}
           onClick={playE4}
         >
-          R
+          E/F♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("F4") ? "active" : ""}`}
           onClick={playF4}
         >
-          T
+          F/E#
         </div>
         <div
           className={`black-key ${activeNotes.includes("Gb4") ? "active" : ""}`}
           onClick={playGb4}
         >
-          6
+          F#/G♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("G4") ? "active" : ""}`}
           onClick={playG4}
         >
-          Y
+          G
         </div>
         <div
           className={`black-key ${activeNotes.includes("Ab4") ? "active" : ""}`}
           onClick={playAb4}
         >
-          7
+          G#/A♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("A4") ? "active" : ""}`}
           onClick={playA4}
         >
-          U
+          A
         </div>
         <div
           className={`black-key ${activeNotes.includes("Bb4") ? "active" : ""}`}
           onClick={playBb4}
         >
-          8
+          A#/B♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("B4") ? "active" : ""}`}
           onClick={playB4}
         >
-          I
+          B/C♭
         </div>
         <div
           className={`white-key ${activeNotes.includes("C5") ? "active" : ""}`}
           onClick={playC5}
         >
-          O
+          C/B#
         </div>
       </div>
       <div className="chord">
@@ -223,7 +223,7 @@ function App() {
                 id="Eb"
                 onClick={() => playEb(activeNotes, setActiveNotes)}
               >
-                Eb
+                E♭
               </button>
               <button
                 className="chord-btn"
@@ -244,14 +244,14 @@ function App() {
                 id="Ab"
                 onClick={() => playAb(activeNotes, setActiveNotes)}
               >
-                Ab
+                A♭
               </button>
               <button
                 className="chord-btn"
                 id="Bb"
                 onClick={() => playBb(activeNotes, setActiveNotes)}
               >
-                Bb
+                B♭
               </button>
               <button
                 className="chord-btn"
@@ -275,7 +275,7 @@ function App() {
                 id="Ebmaj7"
                 onClick={() => playEbmaj7(activeNotes, setActiveNotes)}
               >
-                EbΔ7
+                E♭Δ7
               </button>
               <button
                 className="chord-btn"
@@ -296,14 +296,14 @@ function App() {
                 id="Abmaj7"
                 onClick={() => playAbmaj7(activeNotes, setActiveNotes)}
               >
-                AbΔ7
+                A♭Δ7
               </button>
               <button
                 className="chord-btn"
                 id="Bb7"
                 onClick={() => playBb7(activeNotes, setActiveNotes)}
               >
-                Bb7
+                B♭7
               </button>
               <button
                 className="chord-btn"
@@ -332,7 +332,7 @@ function App() {
                 id="Ebaug"
                 onClick={() => playEbaug(activeNotes, setActiveNotes)}
               >
-                Eb+
+                E♭+
               </button>
               <button
                 className="chord-btn"
@@ -353,7 +353,7 @@ function App() {
                 id="Ab"
                 onClick={() => playAb(activeNotes, setActiveNotes)}
               >
-                Ab
+                A♭
               </button>
               <button
                 className="chord-btn"
@@ -384,7 +384,7 @@ function App() {
                 id="Ebaugmaj7"
                 onClick={() => playEbaugMaj7(activeNotes, setActiveNotes)}
               >
-                Eb+Δ7
+                E♭+Δ7
               </button>
               <button
                 className="chord-btn"
@@ -405,7 +405,7 @@ function App() {
                 id="Abmaj7"
                 onClick={() => playAbmaj7(activeNotes, setActiveNotes)}
               >
-                AbΔ7
+                A♭Δ7
               </button>
               <button
                 className="chord-btn"

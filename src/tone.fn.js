@@ -102,43 +102,104 @@ export function playC5() {
 }
 
 export function playNote(event) {
-  if (event.keyCode === 65) {
-    playC4();
-  }
-  if (event.keyCode === 87) {
-    playDb4();
+  if (event.keyCode === 90) {
+    //z
+    playC3();
   }
   if (event.keyCode === 83) {
-    playD4();
+    //s
+    playDb3();
   }
-  if (event.keyCode === 69) {
-    playEb4();
+  if (event.keyCode === 88) {
+    //x
+    playD3();
   }
   if (event.keyCode === 68) {
-    playE4();
+    //d
+    playEb3();
   }
-  if (event.keyCode === 70) {
-    playF4();
+  if (event.keyCode === 67) {
+    //c
+    playE3();
   }
-  if (event.keyCode === 84) {
-    playGb4();
+  if (event.keyCode === 86) {
+    //v
+    playF3();
   }
   if (event.keyCode === 71) {
-    playG4();
+    //g
+    playGb3();
   }
-  if (event.keyCode === 89) {
-    playAb4();
+  if (event.keyCode === 66) {
+    //b
+    playG3();
   }
   if (event.keyCode === 72) {
-    playA4();
+    //h
+    playAb3();
   }
-  if (event.keyCode === 85) {
-    playBb4();
+  if (event.keyCode === 78) {
+    //n
+    playA3();
   }
   if (event.keyCode === 74) {
+    //j
+    playBb3();
+  }
+  if (event.keyCode === 77) {
+    //m
+    playB3();
+  }
+  if (event.keyCode === 81) {
+    //q
+    playC4();
+  }
+  if (event.keyCode === 50) {
+    //2
+    playDb4();
+  }
+  if (event.keyCode === 87) {
+    //w
+    playD4();
+  }
+  if (event.keyCode === 51) {
+    //3
+    playEb4();
+  }
+  if (event.keyCode === 69) {
+    //e
+    playE4();
+  }
+  if (event.keyCode === 82) {
+    //r
+    playF4();
+  }
+  if (event.keyCode === 53) {
+    //5
+    playGb4();
+  }
+  if (event.keyCode === 84) {
+    //t
+    playG4();
+  }
+  if (event.keyCode === 54) {
+    //6
+    playAb4();
+  }
+  if (event.keyCode === 89) {
+    //y
+    playA4();
+  }
+  if (event.keyCode === 55) {
+    //7
+    playBb4();
+  }
+  if (event.keyCode === 85) {
+    //u
     playB4();
   }
-  if (event.keyCode === 75) {
+  if (event.keyCode === 73) {
+    //i
     playC5();
   }
 }
